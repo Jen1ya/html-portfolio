@@ -36,6 +36,8 @@ li img{
     height: 100px;
     object-fit: cover;
     border-radius: 8px;
+    display: block;
+    margin: bold;
 }
 
 li a{
