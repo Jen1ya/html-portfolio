@@ -21,24 +21,33 @@ h2{
 }
 
 ul{
-    display: flex;
     gap: 20px;
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
 li{
+    
+    flex: 0 0 auto;
+    font-size: small;
+}
+
+.box{
     text-align: center;
 }
 
-li img{
+.box img{
+    display: block;
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 8px;
+    border: 1px solid pink;
+    margin: o auto 5px;
 }
 
-li a{
+.box a{
     display: block;
     margin-top: 8px;
     text-decoration: none;
@@ -46,6 +55,6 @@ li a{
     font-weight: bold;
 }
 
-li a:hover{
+.box a:hover{
     color: pink;
 }
